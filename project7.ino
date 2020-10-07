@@ -32,6 +32,5 @@ void loop() {
   // This 8 bit value allows us to iterate over leds in the ledArray.
   int ledNum = (sensorValue / 4 +1) / 32;
   delay(10);
-  Serial.println(sensorValue / 36);
   turnOnLED(ledNum);
 }
